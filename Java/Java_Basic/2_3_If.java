@@ -25,13 +25,13 @@ public class If
         }
 
         /*
-	    <= 작거나 같다
+	    <= (Smaller than or equal to) 
 	    ==(equal)
 	    !=(not equal)
 	    &&(and)
 	    ||(or)
-	    else 뒤는 조건을 쓰지 않는
-	     */
+	    else (The last condition)
+	*/
 
     }
 }
