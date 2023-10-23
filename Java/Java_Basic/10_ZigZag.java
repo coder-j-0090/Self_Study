@@ -1,4 +1,4 @@
-public class sibal
+public class ZigZag
 {
     public static void main(String[]args)
     {
