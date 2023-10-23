@@ -28,5 +28,28 @@ public class BubbleSort
         for(i=0;i<5;i++)						//Print
             System.out.println(data[i]);
 
+        /*
+        *Minimum to Maximum
+        int []data= new int [5];
+		int i,j,t;
+		Scanner scan = new Scanner(System.in);
+		for(i=0;i<5;i++)
+			data[i]=scan.nextInt();
+		
+		for(i=3;i>=0;i--)
+		{
+			for(j=0;j<=i;j++)
+			{
+				if(data[i]>data[j])
+				{
+					t=data[j];
+					data[j]=data[j+1];
+					data[j+1]=t;
+				}
+			}
+		}
+		for(i=0;i<5;i++)
+			System.out.println(data[i]);
+        */
     }
 }
