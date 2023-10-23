@@ -41,5 +41,27 @@ public class ZigZag
             System.out.println();
         }
 
+        /*
+         * Another way to deal with ZigZag
+         int[][] data = new int [5][5];
+
+        for(int i=0;i<5;i++)
+        {
+            for(int j=0;j<5;j++)
+            {
+                if(i%2!=0)
+                {
+                    data[i][j] = (((i/2)+1)*10)-j;
+                }
+                if(i%2==0)
+                {
+                    data[i][j] = (i*5)+(j+1);
+                }
+                System.out.printf("%2d"+" ", data[i][j]);
+            }
+            System.out.println();
+        }
+         */
+
     }
 }
