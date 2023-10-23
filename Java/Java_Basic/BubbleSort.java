@@ -16,7 +16,6 @@ public class BubbleSort
         for(i=3; i>=0; i--)         //The last bubble decrease from n-1 to 0
         {
             for(j=0;j<=i;j++)       //Comparing a pair of bubble from first to ith.
-            // 비교하는 버블쌍은 처음부터 i번쨰 까지 비교한다.
             {
                 if(data[j]>data[j+1])		// Compare two consecutive pair.
                 {
