@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sibal
+public class BinarySearch
 {
     public static int[] data = new int[100];
     public static void main(String[] args)
