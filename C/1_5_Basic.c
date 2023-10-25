@@ -9,7 +9,7 @@
 
 int main()
 {
-    //Find the numbers that can be sqaured
+    //Find the numbers that can be squared
     int i,j,cnt;
     for(i=2;i<=100;i++)
     {
@@ -30,7 +30,7 @@ int main()
        
     
     
-    //Greatest Common Dinominator
+    //Greatest Common Denominator
     int num1,num2;
     scanf("%d %d", &num1, &num2);
     while(num1!=num2)
