@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-//Insertion sort(Large to small)
+//Insertion sort(Small to Large)
 int main()
 {
     int data[5]={6,7,8,1,5};
@@ -27,4 +27,26 @@ int main()
         printf("%d\n", data[i]);
     return 0;
 }
+
+/*
+ *Large to small
+int main()
+{
+    int data[5]={237843,328943,429438,538943,638433};
+    int i,j,copy;
+    
+    for(i=0;i<5;i++)
+    {
+        copy=data[i];
+        for(j=i-1;j>=0&&copy>data[j];j--)
+        {
+            data[j+1]=data[j];
+        }
+        data[j+1]=copy;
+    }
+    for(i=0;i<5;i++)
+    printf("%d\n",data[i]);
+    return 0;
+}
+*/
 
