@@ -87,4 +87,30 @@ char grade(float s)
     }
 }
 
+/*
+학번,이름,성적
+#include <stdio.h>
+#include <string.h>		//To use strcpy;
 
+struct student
+{
+    int number;
+    char name[10];
+    double grade;
+};
+
+
+int main(void)
+{
+    struct student s;
+    s.number=20071010;
+    strcpy(s.name,"incline");
+    s.grade=4.3;
+    
+    printf("ID : %d\n",s.number);
+    printf("Name : %s\n",s.name);
+    printf("GPA : %f\n",s.grade);
+    return 0;
+}
+
+*/
