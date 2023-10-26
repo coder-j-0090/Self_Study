@@ -8,9 +8,9 @@
 #include <stdio.h>
 
 //구조체로 삼각형 무게중심찾기
-struct tri              //struct가 들어감으로 인해서 구조체. 데이터 타입을 하나로 묶어 줄 때. 함수 아님
+struct tri              
 {
-    int x[3],y[3];      //꼭지점 좌표 x 3개 y 3개
+    int x[3],y[3];      //vertices coordination :  x 3개 y 3개
 };
 
 
