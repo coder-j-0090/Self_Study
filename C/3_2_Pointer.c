@@ -40,4 +40,35 @@ int count(char *p)
 
 
 
+/*
+int count(char*p);
+
+
+int main()
+{
+    char data[20];
+    int ans;
+    scanf("%s",data);       //&안쓰고 하면 시작점 주소 사용
+    ans=count(data);         //ans=count(&data[0]);
+    printf("%s, ans=%d\n",data,ans);
+    return 0;
+}
+
+
+int count(char *p)
+{
+    char key;
+    int i,cnt=0;
+    getchar();
+    scanf("%c", &key);
+    for(i=0;i<20;i++)
+    {
+        if(key==p[i])           //아니면 if(key==*(p+i) 이게 포인터넉 사용 앞에껀 배열
+        {
+            cnt++;
+        }
+    }
+    return cnt;
+}
+ */
 
