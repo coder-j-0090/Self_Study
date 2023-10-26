@@ -1,4 +1,4 @@
-public class TreeTravel
+public class BFS_Queue
 {
     public static void main(String[]args)
     {
