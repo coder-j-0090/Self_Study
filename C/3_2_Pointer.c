@@ -21,7 +21,7 @@ int main()
     return 0;
 }
 
-
+//Count the number of Char Variable 'key' in char[] 'data'
 int count(char *p)
 {
     char key;
