@@ -22,4 +22,13 @@ public class Framework
         }
     }
 
+    /*
+     public class Collection
+     {
+         Stack<Integer> stack = new Stack<>();
+         Queue<Integer> queue = new LinkedList<>();
+         LinkedList<Integer> list = new LinkedList<>();
+     }
+
+    */
 }
