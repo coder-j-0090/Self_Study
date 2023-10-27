@@ -4,7 +4,7 @@ public class Kruscal
 {
     Edge[] graph = new Edge[10];
     Kruscal() {
-        graph[0] = new Edge(1, 2, 2);       //양방향이라서 한번만 쓴다.
+        graph[0] = new Edge(1, 2, 2);       //I write only once because it can go both ways
         graph[1] = new Edge(1, 3, 6);
         graph[2] = new Edge(1, 7, 3);
         graph[3] = new Edge(2, 2, 3);
