@@ -1,16 +1,16 @@
-/*점은 클래스 선택자일때 사용 */
-*{      /* *은 모든거 */
-    margin : 0;     /*외부 여백*/
-    padding : 0;    /*안쪽 여백*/
+
+*{      
+    margin : 0;     
+    padding : 0;    
     box-style : border-box;
 }
-body    /* 태그일때는 점 없이 그냥 사용*/
+body    
 {
-    background-color : #1f1f1f;     /*배경색*/
-    display : flex;     /*차례대로 가로로 배치*/
+    background-color : #1f1f1f;    
+    display : flex;     
     justify-content : center;
     align-items: center;
-    height: 100vh; /*웹사이트 높이*/
+    height: 100vh; 
 }
 .calculator 
 {
@@ -18,12 +18,12 @@ body    /* 태그일때는 점 없이 그냥 사용*/
     background-color : #ccc;
     padding :5px;
 }
-.calculator form    /* .이 있으면 클래스라는 뜻이고 한칸 띄고 쓰면 .calculator의 하위에 있는 form이다*/
+.calculator form   
 {
-    display : grid;     /*격자 형식*/
-    grid-template-columns : repeat(4,65px); /*4칸하고 다음줄로, column size :65*/
-    grid-auto-rows: 65px;   /*세로도 65픽셀*/
-    grid-gap : 5px;     /*사이는 5픽셀*/
+    display : grid;     
+    grid-template-columns : repeat(4,65px); 
+    grid-auto-rows: 65px;   
+    grid-gap : 5px;     
 }
 .calculator form input[type="text"]
 {
@@ -35,23 +35,23 @@ body    /* 태그일때는 점 없이 그냥 사용*/
 {
     background-color: #ed4848;
 }
-.calculator form .clear     /*C 칸은 3칸으로*/
+.calculator form .clear     
 {
     grid-column: span 3;
 }
-.calculator form .operator  /*사칙연산은 오랜지색으로*/
+.calculator form .operator  
 {
     background-color: orange;
 }
-.calculator form .dot   /* . 칸의 색깔을 초록으로 */
+.calculator form .dot  
 {
     background-color: green;
 }
-.calculator form .result    /* = 칸을 2칸으로 만든다*/
+.calculator form .result   
 {
     grid-column : span 2;
 }
-.calculator form input:hovrer   /*마우스 올려놨을때 칸에 그림자 생성*/
+.calculator form input:hovrer   
 {
     box-shadow : 1px 1px 2px #333;
 }
