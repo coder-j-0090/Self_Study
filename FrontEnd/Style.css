@@ -1,0 +1,92 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body
+{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.ghost
+{
+    animation : moveUpDown 3s infinite;
+    position: absolute; /*relative 와 absolute 두가지가 있다. absolute는 고스트를 포함하는 상위 엘리먼트(body tag)를 기준점으로 잡는다.*/
+}
+@keyframes moveUpDown
+{
+    0%
+    {
+        margin-top : 0px;
+    }
+    50%
+    {
+        margin-top : 100px;
+    }
+    100%
+    {
+        margin-top : 0px;
+    }
+}
+.ghost .body
+{
+    width : 120px;
+    height : 160px;
+    background-color: #fff;
+    border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    position:relative;
+}
+.ghost .body .face
+{
+    display : flex;
+    width: 70px;    /* .ghost .body .face .eye의 width+height=19+19=38이고 .ghost .body .face .mouth의 width 는 33이라, 38+33=71이라 .ghost.body.face 의 width인 70보다 길어서 mouth가 눈 밑으로 내려가게 된다.*/
+    justify-content: space-between;
+    flex-wrap: wrap;        
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ghost .body .face .eye
+{
+    width : 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: #333;
+}
+.ghost .body .face .mouth
+{
+    width: 33px;
+    height : 15px;
+    background-color: #333;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 17px;
+    margin-top: 13px;
+}
+.ghost .bottom
+{
+    display : flex;
+}
+.ghost .bottom .leg
+{
+    background-color: #fff;
+    width: 24px;
+    height: 15px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.ghost .bottom .leg:nth-child(2n)
+{
+    position: relative;
+    top : -6px;
+    background-color: #000;
+    border-radius: 50%;
+}
