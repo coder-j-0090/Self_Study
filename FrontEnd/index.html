@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">        
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+     <link rel="stylesheet" href="style.css">    <!--같은 폴더 안에 넣어놓고 이 html 을 css 와 연동시켜준다. -->
+</head>
+<body>
+    <div class = "calculator">          <!--디비전 태그 이름을 calculator-->
+        <form name = "forms">
+            <input type = "text" name="output" readonly>    <!--텍스트는 클릭 못하고 readonly-->
+            <input type = "button" value="C" class="clear" onclick="document.forms.output.value=''">    <!--type버튼으로 클릭 가능-->
+            <input type = "button" class="operator" value="/" onclick="document.forms.output.value+='/'">   <!--onclick은 클릭했을 경우 어떤 실행시켜주는것-->
+            <input type = "button" value="1" onclick="document.forms.output.value+='1'">
+            <input type = "button" value="2" onclick="document.forms.output.value+='2'">
+            <input type = "button" value="3" onclick="document.forms.output.value+='3'">
+            <input type = "button" value="*" class="operator" onclick="document.forms.output.value+='*'">
+            <input type = "button" value="4" onclick="document.forms.output.value+='4'">
+            <input type = "button" value="5" onclick="document.forms.output.value+='5'">
+            <input type = "button" value="6" onclick="document.forms.output.value+='6'">
+            <input type = "button" value="+" class="operator" onclick="document.forms.output.value+='+'">
+            <input type = "button" value="7" onclick="document.forms.output.value+='7'">
+            <input type = "button" value="8" onclick="document.forms.output.value+='8'">
+            <input type = "button" value="9" onclick="document.forms.output.value+='9'">
+            <input type = "button" value="-" class="operator" onclick="document.forms.output.value+='-'">
+            <input type = "button" class="dot" value="." onclick="document.forms.output.value+='.'">
+            <input type = "button" value="0" onclick="document.forms.output.value+='0'">
+            <input type = "button" class = "operator result" value="=" onclick="document.forms.output.value=eval(document.forms.output.value)">
+            <!--eval은 내장함수고 안에 들어있는 문자열을 수식으로 바꿔서 실행시켜주는 함수-->
+        </form>
+    </div>
+</body>
+</html>
