@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>     
+        .box
+        {
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            animation-name: box_ani;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-direction: alternate; /* 왔다갔다. 교대로.*/
+            /*animation-delay: 2s; 시작전 딜레이*/
+            animation-timing-function: linear;      /*가속도 붙이기*/
+            animation-fill-mode : forwards;         /*끝난곳에 있는것.*/
+        }
+        @keyframes box_ani {            /* animation-name 과 keyframes 의 이름이 같아야 한다 */
+            from
+            {
+                margin-left: 0;
+            }           
+            to 
+            {
+                margin-left: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class = "box"></div>
+</body>
+</html>
