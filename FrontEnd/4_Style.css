@@ -15,7 +15,7 @@ body
 .ghost
 {
     animation : moveUpDown 3s infinite;
-    position: absolute; /*relative 와 absolute 두가지가 있다. absolute는 고스트를 포함하는 상위 엘리먼트(body tag)를 기준점으로 잡는다.*/
+    position: absolute; 
 }
 @keyframes moveUpDown
 {
@@ -44,7 +44,7 @@ body
 .ghost .body .face
 {
     display : flex;
-    width: 70px;    /* .ghost .body .face .eye의 width+height=19+19=38이고 .ghost .body .face .mouth의 width 는 33이라, 38+33=71이라 .ghost.body.face 의 width인 70보다 길어서 mouth가 눈 밑으로 내려가게 된다.*/
+    width: 70px;    
     justify-content: space-between;
     flex-wrap: wrap;        
     position: absolute;
