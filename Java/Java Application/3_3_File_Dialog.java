@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Container
+public class FileDialog
 {
     public static void main(String[]args)
     {
