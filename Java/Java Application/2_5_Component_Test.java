@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class LayoutTest
+public class ComponentTest
 {
     public static void main(String[]args)
     {
