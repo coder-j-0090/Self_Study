@@ -1,5 +1,3 @@
-CodeClause AI Internship
-
-I have created two projects throughout this internship
-  1. I created unbeatable TIC TAC TOE AI
-  2. I created customized object detection program.
+As a CodeClause AI Intern, I have created the following projects
+  1. Unbeatable TIC TAC TOE AI that users can play with.
+  2. Customized object detection system to detect specific objects of interest
