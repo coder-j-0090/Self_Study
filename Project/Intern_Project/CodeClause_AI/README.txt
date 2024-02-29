@@ -1,4 +1,4 @@
-# CodeClause AI Internship
+CodeClause AI Internship
 
 I have created two projects throughout this internship
   1. I created unbeatable TIC TAC TOE AI
