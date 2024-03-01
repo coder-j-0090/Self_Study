@@ -1,5 +1,5 @@
 # Customized Object Detection
-  - I’ve developed a customized Object Detection System using YOLOv8, capable of identifying and categorizing objects in images. 
+  - I’ve developed a customized Object Detection System using YOLOv8, capable of identifying and categorizing objects in images for raccoons. 
 
 # Instruction
 ## Aim
