@@ -1,8 +1,8 @@
-# Tic Tac Toe
-  - I’ve developed a Python Tic Tac Toe game where players can challenge an unbeatable AI opponent powered by the MiniMax Algorithm.
+# Customized Object Detection
+  - I’ve developed a customized Object Detection System using YOLOv8, capable of identifying and categorizing objects in images. 
 
 # Instruction
 ## Aim
-  - Develop a simple AI to play the game of Tic-Tac-Toe.
+  - Develop a system that can detect and classify objects in images or video streams.
 ## Description
-  - Create a program that allows a user to play against an AI opponent in the game of Tic-Tac-Toe. Implement basic logic for the AI to make strategic moves.
+  - Create an object detection model capable of identifying and locating multiple objects within an image or video. Utilize a pre-trained model such as YOLO (You Only Look Once) or Faster R-CNN, and customize it to detect specific objects of interest.
