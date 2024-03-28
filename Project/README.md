@@ -14,7 +14,9 @@
 
 ## Personal Project
 
-### Data Science Projects
+### Data Science Projects(Projects from Oasis Inforbyte)
+When I got a data science internship from Oasis Infobyte, they assigned me 5 tasks, and I had to finish only 3. However, I decided to do 2 left over projects as well.
+  
   1. Email Spam Detection with ML
   2. Sales Prediction using Python
 
