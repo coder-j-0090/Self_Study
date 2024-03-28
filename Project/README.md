@@ -17,3 +17,6 @@
 ### Data Science Projects
   1. Email Spam Detection with ML
   2. Sales Prediction using Python
+
+### CV(Computer Vision)
+  1. Detect objects from pictures, videos, and webcam with YOLOV8.
