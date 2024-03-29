@@ -20,3 +20,5 @@ If you're interested in contributing to my self-study journey, you can:
 - Collaborate on projects or articles.
 
 Feel free to open issues or pull requests with your contributions.
+
+I got all of my dataset from Kaggle. 
