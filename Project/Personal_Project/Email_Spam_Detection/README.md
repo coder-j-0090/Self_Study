@@ -1,1 +1,2 @@
-I created Machine Learning model that change natural language to numerical values, then use 3 Gaussian Naive Bayes models to find which one has the highest accuracy to choose the best model to classify spam and non-spam emails.
+I created a Machine Learning model that changes the natural language to numerical values, then used 3 Gaussian Naive Bayes models to find which one has the highest accuracy to choose the best model to classify spam and non-spam emails.
+Among the 3 Naive Bayes models, the Bernoulli model has 97.93% accuracy, which is the highest among all 3 of them. Bernoulli is the best ML model for Spam Detection.
