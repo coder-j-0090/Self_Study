@@ -1,0 +1,1 @@
+I created Machine Learning model that change natural language to numerical values, then use 3 Gaussian Naive Bayes models to find which one has the highest accuracy to choose the best model to classify spam and non-spam emails.
